@@ -1,0 +1,14 @@
+overall:
+  heat: 0.25
+  negative_ratio: 0.25
+  spread_speed: 0.20
+  authority_involvement: 0.15
+  secondary_spread_risk: 0.10
+  uncertainty_risk: 0.05
+
+event_type_adjustments:
+  food_safety: 0.10
+  public_safety: 0.10
+  product_safety_crisis: 0.10
+  celebrity_scandal: -0.05
+

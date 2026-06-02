@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.venv/
+.env
+dist/
+build/
+*.egg-info/
+data/sessions/*.json
+data/sessions/*.md
+data/sessions/*.html
+data/sessions/*_charts/
+data/training/*.jsonl
+data/*.sqlite3
+data/eval_results.json

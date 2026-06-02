@@ -1,0 +1,15 @@
+event_types:
+  product_quality_crisis: 产品质量危机
+  product_safety_crisis: 产品安全事故
+  food_safety: 食品安全
+  celebrity_scandal: 明星/公众人物争议
+  campus_incident: 校园事件
+  corporate_pr_crisis: 企业公关危机
+  consumer_complaint: 消费者投诉
+  policy_dispute: 政策争议
+  public_safety: 公共安全
+  financial_risk: 金融/股价风险
+  labor_dispute: 劳资纠纷
+  rumor_or_misinformation: 谣言/疑似谣言
+  other: 其他
+

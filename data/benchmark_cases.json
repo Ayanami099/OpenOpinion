@@ -1,0 +1,12 @@
+[
+  {
+    "case_id": "food_safety_demo",
+    "user_input": "某奶茶品牌被曝使用过期原料",
+    "expected_intents": ["FACT", "OFFICIAL_RESPONSE", "MEDIA_COVERAGE", "PUBLIC_REACTION", "RUMOR_CHECK", "RISK_IMPACT"]
+  },
+  {
+    "case_id": "campus_demo",
+    "user_input": "某高校学生反映宿舍饮水安全问题",
+    "expected_intents": ["FACT", "OFFICIAL_RESPONSE", "MEDIA_COVERAGE", "PUBLIC_REACTION", "RISK_IMPACT"]
+  }
+]

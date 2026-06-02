@@ -1,0 +1,34 @@
+platforms:
+  general_web:
+    site_prefix: ""
+  news:
+    site_prefix: ""
+  weibo:
+    site_prefix: "site:weibo.com"
+  zhihu:
+    site_prefix: "site:zhihu.com"
+  xiaohongshu:
+    site_prefix: "site:xiaohongshu.com"
+  official:
+    site_prefix: "site:gov.cn"
+
+source_domains:
+  government:
+    - gov.cn
+    - court.gov.cn
+    - police.gov.cn
+  official:
+    - official
+    - company
+  mainstream_media:
+    - people.com.cn
+    - xinhuanet.com
+    - cctv.com
+    - chinanews.com.cn
+    - thepaper.cn
+    - caixin.com
+  social:
+    - weibo.com
+    - zhihu.com
+    - xiaohongshu.com
+

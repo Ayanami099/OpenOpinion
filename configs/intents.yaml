@@ -1,0 +1,20 @@
+intents:
+  FACT: 事实核查
+  TIMELINE: 时间线
+  OFFICIAL_RESPONSE: 官方回应
+  MEDIA_COVERAGE: 媒体报道
+  PUBLIC_REACTION: 公众反应
+  STAKEHOLDER_VIEW: 相关方观点
+  RUMOR_CHECK: 辟谣/反转
+  RISK_IMPACT: 后续影响
+  LEGAL_REGULATION: 法律/监管
+  COMPETITOR_CONTEXT: 同类事件/竞品对比
+
+required_defaults:
+  - FACT
+  - OFFICIAL_RESPONSE
+  - MEDIA_COVERAGE
+  - PUBLIC_REACTION
+  - RUMOR_CHECK
+  - RISK_IMPACT
+

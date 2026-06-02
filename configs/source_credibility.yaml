@@ -1,0 +1,13 @@
+credibility_base:
+  government: 1.00
+  official: 0.95
+  mainstream_media: 0.85
+  local_media: 0.75
+  industry_media: 0.72
+  verified_social_account: 0.68
+  ordinary_social_post: 0.48
+  forum_post: 0.42
+  anonymous_post: 0.32
+  content_farm: 0.20
+  unknown: 0.40
+
