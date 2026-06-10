@@ -1,0 +1,2 @@
+"""Campus opinion analysis agent."""
+
