@@ -1,0 +1,12 @@
+{
+  "_comment": "Copy this file to config.json and fill in local credentials. Do not commit config.json.",
+  "shuiyuan_user_api_key": "YOUR_USER_API_KEY",
+  "shuiyuan_user_api_client_id": "YOUR_CLIENT_ID",
+  "shuiyuan_cookies": {},
+  "media_crawler": {
+    "repo_path": "external/MediaCrawler",
+    "conda_env": "mediacrawler",
+    "output_dir": "data/external/mediacrawler"
+  }
+}
+
