@@ -1218,6 +1218,12 @@ def render_html(context: dict[str, Any], insights_doc: dict[str, Any]) -> str:
     platform_counts = safe_dict(chart_data.get("platform_counts"))
     by_platform_sentiment = safe_dict(chart_data.get("by_platform_sentiment"))
 
+    platform_source_text = " / ".join(
+        zh_platform(platform)
+        for platform, count in platform_counts.items()
+        if safe_int(count) > 0
+    ) or "未知"
+
     total = safe_int(data_overview.get("analyzed_text_count"))
     negative_count = safe_int(sentiment_counts.get("negative"))
     positive_count = safe_int(sentiment_counts.get("positive"))
@@ -1256,7 +1262,7 @@ def render_html(context: dict[str, Any], insights_doc: dict[str, Any]) -> str:
     <section class="hero">
       <div class="hero-label">舆情分析报告</div>
       <h1>{esc(event_name)}</h1>
-      <div class="hero-sub">生成时间：{esc(generated_at)} · 样本文本数：{esc(total)} · 数据来源：全网搜索 / 水源社区 / 知乎</div>
+      <div class="hero-sub">生成时间：{esc(generated_at)} · 样本文本数：{esc(total)} · 数据来源：{esc(platform_source_text)}</div>
     </section>
 
     <nav class="navbar">
